@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+}
+
+.outline, .link {
+    font-size: 2.5vw;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    margin: 0;
+}
+
+.s {
+    font-size: 1.25vw;
+    text-transform: uppercase;
+}
+
+.n {
+    margin: 0;
+    font-size: 2.5vw;
+    text-align: end;
+    margin-bottom: 2%;
+}
+
+.m {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.i {
+    font-style: italic;
+}
+
+.link:hover {
+    color: white;
+}
+
+.delete_button {
+    width: 20%;
+    height: auto;
+    margin-left: 65%;
+    margin-top: 1%;
+}
+
+.text {
+    color: white;
+    text-decoration: none;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.sinopse {
+    margin: 0;
+    font-size: 2.5vw;
+    color: white;
+    padding: 3%;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 3%;
+}
